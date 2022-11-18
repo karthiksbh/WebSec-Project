@@ -1,0 +1,39 @@
+<html>
+  <head>
+    <title>Phishing Detector</title>
+  </head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    header {
+      min-height: 80px;
+      padding: 0.5rem 2rem;
+
+      background-color: rgb(0, 118, 197);
+      color: white;
+
+      font-family: sans-serif;
+
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+    }
+
+    a,
+    a:active,
+    a:visited,
+    a:link {
+      color: inherit;
+      text-decoration: none;
+    }
+  </style>
+  <body>
+    <header>
+      <h1><a href="{% url 'index' %}">Phishing Detector</a></h1>
+    </header>
+  </body>
+</html>

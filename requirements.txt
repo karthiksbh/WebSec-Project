@@ -1,0 +1,10 @@
+numpy
+matplotlib
+pandas
+sklearn
+tldextract
+bs4
+python-whois
+datetime
+requests
+django

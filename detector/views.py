@@ -5,7 +5,7 @@ from detector.src import Inputscript, RandomForest, Index
 # Create your views here.
 def index(request):
     if(request.method == "POST"):
-        print("Process Request:", request.POST)
+        print("Processing Request:", request.POST)
 
         data = request.POST
         url = data.get("url")
